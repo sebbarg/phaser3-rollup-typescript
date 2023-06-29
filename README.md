@@ -1,3 +1,9 @@
+Forked from https://github.com/geocine/phaser3-rollup-typescript
+
+- Added eslint and prettier
+
+---
+
 <h1 align="center">
   <br>
   <a href="https://github.com/geocine/phaser3-rollup-typescript#readme"><img src="https://i.imgur.com/6lcIxDs.png" alt="header" width="600"/></a>
@@ -10,12 +16,12 @@ This is a [Phaser 3](https://github.com/photonstorm/phaser) starter with [TypeSc
 
 ## Available Commands
 
-| Command | Description |
-|---------|-------------|
-| `yarn install` | Install project dependencies |
-| `yarn dev` | Builds project and open web server, watching for changes |
-| `yarn build` | Builds code bundle with production settings  |
-| `yarn serve` | Run a web server to serve built code bundle |
+| Command        | Description                                              |
+| -------------- | -------------------------------------------------------- |
+| `yarn install` | Install project dependencies                             |
+| `yarn dev`     | Builds project and open web server, watching for changes |
+| `yarn build`   | Builds code bundle with production settings              |
+| `yarn serve`   | Run a web server to serve built code bundle              |
 
 ## Development
 

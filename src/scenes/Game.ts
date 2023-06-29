@@ -5,11 +5,11 @@ export default class Demo extends Phaser.Scene {
     super('GameScene');
   }
 
-  preload() {
+  preload(): void {
     this.load.image('logo', 'assets/phaser3-logo.png');
   }
 
-  create() {
+  create(): void {
     const logo = this.add.image(400, 70, 'logo');
 
     this.tweens.add({
@@ -18,7 +18,7 @@ export default class Demo extends Phaser.Scene {
       duration: 1500,
       ease: 'Sine.inOut',
       yoyo: true,
-      repeat: -1
+      repeat: -1,
     });
   }
 }
